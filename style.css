@@ -1,0 +1,5 @@
+
+h1,h2,h3,h4,h5{line-height:1}body{padding:0;margin:0}h1{font-size:60px}h2{font-size:48px}h3{font-size:18px}h4{font-size:16px}h5{font-size:14px}.blue-text{color:#07a4e6}.green-text{color:#8bbf36}
+.container,.container-fluid{width:100%}.container{max-width:1170px;margin:auto}.row{display:-webkit-box;display:-ms-flexbox;display:flex}.col-md-1{width:calc(100% / 12)}.col-md-2{width:calc((100% / 12) * 2)}.col-md-4{width:calc((100% / 12) * 4)}.col-md-6{width:calc((100% / 12) * 6)}.col-md-8{width:calc((100% / 12) * 8)}.col-md-10{width:calc((100% / 12) * 10)}.col-md-12{width:calc((100% / 12) * 12)}
+
+haeder .logo{background:#ff0}haeder .logo h1{display:inline-block}
