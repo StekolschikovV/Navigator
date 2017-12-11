@@ -56,6 +56,9 @@ VK.init({
 function authInfo(response) {
     if (response.session) {
         alert('user: '+response.session.mid);
+        VK.api("users.get", {'user_ids' : response.session.mid}, function(data) { 
+            console.log(data.response[0].last_name);
+         });
     } else {
         alert('not auth');
     }
