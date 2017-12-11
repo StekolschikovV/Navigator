@@ -7,9 +7,9 @@ html(lang="en")
         link(rel="stylesheet", href="style.css")
         title Document
     body
-        #VKInfo
+        a(href="javascript:VK.Auth.login(authInfo);") VK
         script(src="https://vk.com/js/api/openapi.js", type="text/javascript")
-        script(src="https://vk.com/js/api/share.js?90", type="text/javascript", charset="windows-1251")
+        //- script(src="https://vk.com/js/api/share.js?90", type="text/javascript", charset="windows-1251")
         script(src="script.js")
         haeder.container-fluid 
             .container
@@ -34,4 +34,3 @@ html(lang="en")
 
 
 
-                        
