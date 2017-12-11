@@ -68,18 +68,18 @@ gulp.task('styles', function () {
 });
 
 gulp.task('scripts', function () {
-    return gulp.src('src/scripts/**/*.js')
+    return gulp.src('./src/scripts/vk.js')
         .pipe(plumber({
             errorHandler: function (error) {
                 console.log(error.message);
                 this.emit('end');
             }
         }))
-        .pipe(jshint())
-        .pipe(jshint.reporter('default'))
+        // .pipe(jshint())
+        // .pipe(jshint.reporter('default'))
         .pipe(concat('script.js'))
-        .pipe(babel())
-        .pipe(uglify())
+        // .pipe(babel())
+        // .pipe(uglify())
         .pipe(gulp.dest('./'))
         .pipe(browserSync.reload({ stream: true }))
 });
