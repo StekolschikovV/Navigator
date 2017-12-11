@@ -4,7 +4,7 @@ VK.init({
 
 VK.Auth.getLoginStatus(function (response) {
     if (response.status == 'connected') {
-        isLogin = true;
+        console.log(response.status)
     }
 });
 
