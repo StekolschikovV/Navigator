@@ -1,5 +1,5 @@
 VK.init({
-    apiId: 5512195,  // app id
+    apiId: 6294974,  // app id
 });
 
 VK.Auth.getLoginStatus(function (response) {
