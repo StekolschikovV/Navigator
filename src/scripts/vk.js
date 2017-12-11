@@ -30,7 +30,8 @@ function authInfo(response) {
     }
 }
 
-$(function() { VK.Auth.getLoginStatus(authInfo); });
+
+VK.Auth.getLoginStatus(authInfo) 
 
 
 
