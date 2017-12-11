@@ -29,3 +29,4 @@ function authInfo(response) {
 }
 
 VK.Auth.getLoginStatus(authInfo) 
+
